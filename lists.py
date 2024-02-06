@@ -48,11 +48,25 @@
 
 
 # Let's create a function that determines if a number is odd or even
-number = 5
-if number%2 == 0:
-    print('Even')
-else:
-    print('Odd')
+# number = 5
+# if number%2 == 0:
+#     print('Even')
+# else:
+#     print('Odd')
 
 
 # Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ".
+
+service = input("Service was:")
+if service == "bad":
+    print("0% tip")
+elif service == "okay":
+    print("15% tip")
+elif service == "good":
+    print("20% tip")
+elif service == "great":
+    print("25% tip")
+
+
+# x = input("Tree")
+# if(int(x) < 5)
