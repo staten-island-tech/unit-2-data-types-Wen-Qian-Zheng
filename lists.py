@@ -57,15 +57,27 @@
 
 # Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ".
 
+bill = int(input("How much was your bill in integer?: "))
 service = input("Service was:")
+
+total = 0
+
 if service == "bad":
     print("0% tip")
+    total = round(bill, ndigits=2)
+    print(f"Your total is ${total}.00")
 elif service == "okay":
     print("15% tip")
+    total = round(bill * 1.15, ndigits=2)
+    print(f"Your total is ${total}0")
 elif service == "good":
     print("20% tip")
+    total = round(bill * 1.20, ndigits=2)
+    print(f"Your total is ${total}0")
 elif service == "great":
     print("25% tip")
+    total = round(bill * 1.25, ndigits=2)
+    print(f"Your total is ${total}0")
 
 
 # x = input("Tree")
