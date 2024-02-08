@@ -65,19 +65,19 @@ total = 0
 if service == "bad":
     print("0% tip")
     total = round(bill, ndigits=2)
-    print(f"Your total is ${total}.00")
+    print(f"Your total is ${total}.")
 elif service == "okay":
     print("15% tip")
     total = round(bill * 1.15, ndigits=2)
-    print(f"Your total is ${total}0")
+    print(f"Your total is ${total}")
 elif service == "good":
     print("20% tip")
     total = round(bill * 1.20, ndigits=2)
-    print(f"Your total is ${total}0")
+    print(f"Your total is ${total}")
 elif service == "great":
     print("25% tip")
     total = round(bill * 1.25, ndigits=2)
-    print(f"Your total is ${total}0")
+    print(f"Your total is ${total}")
 
 
 # x = input("Tree")
