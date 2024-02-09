@@ -1,9 +1,8 @@
 import random # we import a package named random which comes with random functions
 from random import *
 
-
 def guess():
-    lowervalue = int(input("Gimme a lowest number rn: "))
+    lowervalue = int(input("\033[1;31m Gimme a lower number: "))
     uppervalue = int(input("SLAY OKAY GIMME A HIGHEST NUMBER: "))
     number = randint(lowervalue, uppervalue) # randomly picks an integer ranging from 1 to 100
     attempt = 0 # variable value starts at 0
@@ -30,8 +29,5 @@ def guess():
         if int(choice) > int(number):
             print("GO LOWER LOSER")
             attempt = attempt + 1
-
-
-# "\033[1;31m This is red text")
 
 guess()
