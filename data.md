@@ -96,6 +96,7 @@ What will happen when we run the above code?
 
 ## Challenge
 Let's create a function that determines if a number is odd or even
+
 ## Challenge
 Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ". 
 

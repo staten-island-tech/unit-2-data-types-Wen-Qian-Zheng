@@ -1,0 +1,25 @@
+# Let's create a function that determines if a number is odd or even
+def evenorodd():
+    success = False
+    while success == False:
+        number = int(input("\033[1;31m Provide me with an integer: "))
+        if number%2 == 0:
+            print(f'{number} is EVEN')
+            success = True
+        else:
+            print(f'{number} is ODD')
+            success = True
+        if success == True:
+            rerun = input("Run again? Y/N: ")
+            if rerun == "Y":
+                evenorodd()
+            if rerun == "y":
+                evenorodd()
+            if rerun == "N":
+                print("BYEBYE")
+                break
+            if rerun == "n":
+                print("BYEBYE")
+                break
+
+evenorodd()
