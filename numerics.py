@@ -2,7 +2,7 @@ import random # we import a package named random which comes with random functio
 from random import *
 
 def guess():
-    lowervalue = int(input("\033[1;31m Gimme a lower number: "))
+    lowervalue = int(input("\033[1;31m Gimme a lower number: ")) # WOAH RED TEXT
     uppervalue = int(input("SLAY OKAY GIMME A HIGHEST NUMBER: "))
     number = randint(lowervalue, uppervalue) # randomly picks an integer ranging from 1 to 100
     attempt = 0 # variable value starts at 0
