@@ -1,0 +1,6 @@
+def last_name():
+    x = input("What letter does your last name start with?: ")
+    if x = "A":
+        print("Your homeroom is 101")
+    elif x = "A":
+    

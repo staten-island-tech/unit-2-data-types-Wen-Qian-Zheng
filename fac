@@ -14,8 +14,8 @@ def gcf(valueone, valuetwo):
     return result
 
 if __name__ == '__main__':
-    valueone = int(input("\033[93m Provide 1st number: "))
-    valuetwo = int(input("\033[96m Provide 2nd number: ")) 
-    print(f"\033[92m The greatest common factor of {valueone} and {valuetwo} is {gcf(valueone, valuetwo)}")
+    valueone = float(input("\033[93m Provide 1st number: "))
+    valuetwo = float(input("\033[96m Provide 2nd number: ")) 
+    print(f"\033[92m The greatest common factor of {int(valueone)} and {int(valuetwo)} is {int(gcf(valueone, valuetwo))}")
 
 print("\033[0m")
