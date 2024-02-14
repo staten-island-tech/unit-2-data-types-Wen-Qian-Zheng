@@ -1,6 +1,19 @@
-def last_name():
-    x = input("What letter does your last name start with?: ")
-    if x = "A":
-        print("Your homeroom is 101")
-    elif x = "A":
-    
+# Program 1
+
+enter = "\n"
+print(enter*10)
+
+hr = "Your homeroom is "
+
+last_name = input("What's yo last name?: ")
+last_name = last_name.upper()
+if last_name == "A":
+    print(f"{hr}101")
+elif last_name == "B":
+    print(f"{hr}102")
+else:
+    print(f"{hr}103")
+    last_name.stat
+
+
+# Program 2
