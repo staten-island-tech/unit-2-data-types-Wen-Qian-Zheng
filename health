@@ -1,0 +1,17 @@
+M = 0
+L = "Bob's Hunger Points: "
+H = int(input("Maximum Hunger Points: "))
+A = int(input("How many Apples does Bob eat?: "))
+S = int(input("Input seconds Bob waited: "))
+
+X = (M + A)
+Y = (X - S)
+
+if(X > H):
+    O = H
+    P = O - S
+    print(f"{L}{P}")
+elif(X < 0):
+    print(f"{L}{M}")
+else:
+    print(f"{L}{Y}")
