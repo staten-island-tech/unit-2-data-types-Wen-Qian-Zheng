@@ -1,4 +1,6 @@
 # Let's create a function that determines if a number is odd or even
+b = "BYEBYE"
+
 def evenorodd():
     success = False
     while success == False:
@@ -16,10 +18,10 @@ def evenorodd():
             if rerun == "y":
                 evenorodd()
             if rerun == "N":
-                print("BYEBYE")
+                print(f"{b}")
                 break
             if rerun == "n":
-                print("BYEBYE")
+                print(f"{b}")
                 break
 
 evenorodd()

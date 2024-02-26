@@ -7,10 +7,10 @@ S = int(input("Input seconds Bob waited: "))
 X = (M + A)
 Y = (X - S)
 
-if(X > H):
-    O = H
-    P = O - S
-    print(f"{L}{P}")
+while(Y < 0):
+    print("0")
+if(A > H):
+    print(f"{L}{H}")
 elif(X < 0):
     print(f"{L}{M}")
 else:
